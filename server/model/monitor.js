@@ -638,7 +638,7 @@ class Monitor extends BeanModel {
                 text = "🔴 Down";
             }
 
-            let msg = `[${monitor.name}] [${text}] \n ${monitor.url}`;
+            let msg = `[${monitor.name}] [${text}] \n Adres: ${monitor.url}`;
 
             for (let notification of notificationList) {
                 try {
